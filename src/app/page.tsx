@@ -4,11 +4,14 @@ import SocialLink from './components/SocialLink';
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-gray-900 to-black p-4">
+      <div className='py-4 relative'>
+        <img src="/images/kant-sdev.png" alt="Kant-sdev" className='w-40 rounded-full relative' />
+        <span className='absolute bottom-3.5 right-7 border-4 border-background  w-6 h-6 bg-yellow-500 rounded-full'/>
+      </div>
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-white mb-2">kant.sdev</h1>
-        <p className="text-gray-400">Desenvolvedor Front</p>
+        <p className="text-gray-400">Desenvolvedor Full-Stack em Formação</p>
       </div>
-
       <div className="w-full max-w-md space-y-4">
         <SocialLink
           href="https://wa.me/+5563999466193"
@@ -25,7 +28,7 @@ export default function Home() {
         </SocialLink>
 
         <SocialLink
-          href="https://www.linkedin.com/in/kau%C3%A3-cantanh%C3%AAde-dos-santos-2b9b43259/"
+          href="https://www.linkedin.com/in/kauã-cantanhêde/"
           title="LinkedIn"
         >
           <FaLinkedin className="text-xl" />
